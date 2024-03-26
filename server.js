@@ -11,6 +11,7 @@ const db = knex({
         port: 5432,
         password: 'w8vYrtGQBscIrPHj1j103IJJfbIPXHfE',
         database: 'fluxkartusers'
+        ssl: true
     }
 })
 
