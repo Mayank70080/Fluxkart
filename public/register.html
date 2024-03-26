@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FluxKart</h1>
+    <div class="registeration-box">
+        <div class="form-box">
+            <h2>Register a New User</h2>
+            <div class="form">
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="call"></ion-icon></span>
+                    <input type="tel" id="phone" required pattern="[0-9]{10}">
+                    <label>Phone No</label>
+                </div>
+                <div class="inputbox">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="pass" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" id="submit">Register</button>
+                <div class="register">
+                    <p>Already have an account? <a href="/login">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
