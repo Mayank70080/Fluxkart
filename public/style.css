@@ -118,12 +118,6 @@ h2 {
 }
 
 .homepage {
-    height: 500px;
-    width: 800px;
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 10px;
     color: #FFFFFF;
     border-radius: 2.5rem;
