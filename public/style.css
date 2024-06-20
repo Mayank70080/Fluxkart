@@ -161,10 +161,6 @@ h2 {
 }
 
 #viewinfo {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 0.7rem;
     background: transparent;
     backdrop-filter: blur(60px);
