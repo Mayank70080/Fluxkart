@@ -7,10 +7,10 @@ const db = knex({
     client: 'pg',
     connection: {
         host: 'cqit9vggph6c738u1bng-a.singapore-postgres.render.com',
-        user: 'fluxkart_users',
+        user: 'fluxkart_users_user',
         port: 5432,
         password: 'Pt2px6NvCfBUBk5XfohWXHHxhRUY7rSG',
-        database: 'fluxkartusers1',
+        database: 'fluxkart_users',
         ssl: true
     }
 })
