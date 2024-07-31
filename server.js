@@ -6,11 +6,11 @@ const knex = require('knex');
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'cqit9vggph6c738u1bng-a.singapore-postgres.render.com',
-        user: 'fluxkart_users_user',
+        host: 'cqkuvv0gph6c738m6gp0-a.oregon-postgres.render.com',
+        user: 'fluxkartusers_qecf_user',
         port: 5432,
-        password: 'Pt2px6NvCfBUBk5XfohWXHHxhRUY7rSG',
-        database: 'fluxkart_users',
+        password: 'OR9tQYzs5NIAsIPhTO20oB6gy6EXW1bW',
+        database: 'fluxkartusers_qecf',
         ssl: true
     }
 })
